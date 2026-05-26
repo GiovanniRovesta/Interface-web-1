@@ -1,4 +1,4 @@
-# ProgWeb - 2026 - ETECVAV
+# Interfaces Web - 2026 - ETECVAV
 
 # Professores: Cristiane e Ronilda
 Aluno: Giovanni Rovesta
