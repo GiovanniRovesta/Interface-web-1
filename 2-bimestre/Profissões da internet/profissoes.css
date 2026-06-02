@@ -66,8 +66,8 @@ footer {
 
 .botoes-menu{
   display: flex;
-  flex-direction: column; /* um embaixo do outro */
-  align-items: center;   /* centraliza os links */
+  flex-direction: column;
+  align-items: center;  
   gap: 10px;
 }
 
@@ -75,7 +75,38 @@ footer {
   color: white;
   text-decoration: none;
 }
-
+.img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagem {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img1{
+    max-width: 100%;
+  height: auto;
+  display: block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img2 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
@@ -106,6 +137,25 @@ footer {
   font-size: 22px;
   font-family: 'Lato', sans-serif;
   text-align: justify;
+}
+.img{
+  width: 250px;
+  height: 250px;
+}
+.imagem {
+  width: 600px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img1{
+  width: 450px;
+  height: 300px;
+}
+.img2{
+  width: 500px;
+  height: 250px;
 }
 }
 
