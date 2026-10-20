@@ -49,3 +49,8 @@ body {
     background: var(--dourado);
     color: #000;
 }
+
+.footer-ascra {
+    background: #000;
+    border-top: 4px solid var(--dourado);
+  }
