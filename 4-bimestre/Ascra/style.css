@@ -1,0 +1,409 @@
+
+/*
+DECLARAÇÃO DE USO DE INTELIGÊNCIA ARTIFICIAL
+Ferramenta: Claude (Anthropic)
+Etapa: Desenvolvimento / Estilização
+Finalidade: Auxílio no desenvolvimento e ajustes do CSS.
+Validação: Código testado e validado pelo grupo.
+*/
+
+
+:root {
+    --vinho: #550000;
+    --dourado: #c9a227;
+    --creme: #f0e68c;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    background: var(--vinho);
+}
+
+.titulo {
+    font-family: "Prata", serif;
+    color: var(--creme);
+}
+
+.hero-card {
+    background: #000;
+    border-left: 8px solid var(--dourado);
+    border-radius: .5rem;
+}
+
+.tag-hero {
+    background: rgba(201, 162, 39, .2);
+    color: var(--creme);
+    font-weight: 600;
+}
+
+.btn-ouro {
+    background: var(--dourado);
+    border-color: var(--dourado);
+    color: #000;
+    font-weight: 700;
+}
+
+.btn-ouro:hover {
+    background: var(--creme);
+    border-color: var(--creme);
+    color: #000;
+}
+
+.btn-borda-ouro {
+    border: 2px solid var(--dourado);
+    color: var(--creme);
+    font-weight: 700;
+}
+
+.btn-borda-ouro:hover {
+    background: var(--dourado);
+    color: #000;
+}
+
+.footer-ascra {
+    background: #000;
+    border-top: 4px solid var(--dourado);
+  }
+
+body {
+    background-color: #410000;
+    margin: 0;
+}
+
+
+.banner-valorant {
+    min-height: 450px;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(20, 0, 0, 0.95),
+            rgba(40, 0, 0, 0.55),
+            rgba(40, 0, 0, 0.2)
+        ),
+        url("./img/wp12672375-valorant-wallpapers.jpg")
+        center / cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding: 60px 8%;
+    color: white;
+}
+
+.banner-conteudo {
+    max-width: 600px;
+}
+
+.banner-conteudo .subtitulo {
+    color: #ff4057;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.banner-conteudo h1 {
+    font-size: clamp(38px, 5vw, 64px);
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+.banner-conteudo p {
+    font-size: 17px;
+    color: #dddddd;
+    line-height: 1.7;
+}
+
+
+.btn-ascra {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: #ff4057;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-ascra:hover {
+    background-color: #d9233b;
+    color: white;
+    transform: translateY(-2px);
+}
+
+
+.sobre-valorant {
+    padding: 60px 8%;
+    color: white;
+    text-align: center;
+}
+
+.sobre-valorant h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sobre-valorant h2 span {
+    color: #ff4057;
+}
+
+.sobre-valorant p {
+    max-width: 800px;
+    margin: auto;
+    color: #dddddd;
+    line-height: 1.8;
+}
+
+
+.informacoes-ascra {
+    padding: 20px 8% 70px;
+}
+
+.card-ascra {
+    height: 100%;
+    padding: 28px 20px;
+    text-align: center;
+    background-color: #260000;
+    border: 1px solid #642020;
+    border-radius: 10px;
+    
+    transition: 0.5s;
+    box-shadow: 10px 10px black;
+}
+
+.card-ascra:hover {
+    transform: translateY(-5px);
+    border-color: #ff4057;
+}
+
+.card-ascra h3 {
+    color: #ff4057;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.card-ascra p {
+    margin: 0;
+    color: #dddddd;
+}
+
+
+.footer-ascra {
+    background-color: #000000;
+    border-top: 3px solid #d4a72c;
+}
+
+
+@media (max-width: 768px) {
+    .banner-valorant {
+        min-height: 400px;
+        padding: 40px 7%;
+        background-position: center;
+    }
+
+    .banner-conteudo p {
+        font-size: 15px;
+    }
+
+    .sobre-valorant {
+        padding: 45px 7%;
+    }
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 100px;
+    background-color: #260000;
+    border: 1px solid #642020;
+    border-radius: 10px;
+    width: 500px;
+    height: 350px;
+    transition: 0.5s;
+    box-shadow: 10px 10px black;
+    color: #ff4057;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    padding-bottom: 60px;
+    height: auto;
+    min-height: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    border-color: #ff4057;
+}
+
+.card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.card h1{
+    color: #ff4057;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.card p {
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+body.bg-white {
+    background-color: #ffffff !important;
+    color: #212529 !important;
+}
+
+body.bg-white .sobre-valorant,
+body.bg-white .sobre-valorant p {
+    color: #212529 !important;
+}
+
+body.bg-white .sobre-valorant h2 {
+    color: #0a3663 !important;
+}
+
+.sobre-rl{
+    padding: 60px 8%;
+    color: black;
+    text-align: center;
+}
+.banner-rocket {
+    height: 480px; /* Define a altura exata para 480px */
+    background:
+        linear-gradient(
+            90deg,
+            rgba(20, 0, 0, 0.95),
+            rgba(40, 0, 0, 0.55),
+            rgba(40, 0, 0, 0.2)
+        ),
+        url("./img/rocket_480x270.jpg")
+        center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+    color: white;
+}
+
+.banner-conteudo2 {
+    max-width: 600px;
+}
+.card-ascra2 {
+    height: 100%;
+    padding: 28px 20px;
+    text-align: center;
+    background-color: #060168;
+    border: 1px solid #08043d;
+    border-radius: 10px;
+    
+    transition: 0.5s;
+    box-shadow: 10px 10px #040131;
+}
+
+.card-ascra2:hover {
+    transform: translateY(-5px);
+    border-color: #f6fa11;
+}
+
+.card-ascra2 h3 {
+    color: #e4e005;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.card-ascra2 p {
+    margin: 0;
+    color: #dddddd;
+}
+.btn-ascra2 {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: #e9e514;
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-ascra2:hover {
+    background-color: #c7d923 !important; 
+    color: #000000 !important; 
+    transform: translateY(-2px);
+}
+/* --- NOVAS CLASSES EXCLUSIVAS PARA O ROCKET LEAGUE --- */
+.main-rocket {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.card-rocket {
+    background-color: #060168;
+    border: 1px solid #08043d;
+    border-radius: 10px;
+    width: 350px;
+    min-height: 350px;
+    padding: 20px;
+    transition: 0.5s;
+    box-shadow: 10px 10px black;
+    box-sizing: border-box;
+}
+
+.card-rocket:hover {
+    transform: translateY(-5px);
+    border-color: #e4e005;
+}
+
+.card-rocket h1 {
+    color: #e4e005;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.card-rocket p {
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .main-rocket {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-rocket {
+        width: 100%;
+        max-width: 400px;
+    }
+}
